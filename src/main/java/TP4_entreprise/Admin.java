@@ -29,7 +29,11 @@ public class Admin {
         this.employees.remove(employee);
     }
     public void mettre_a_jour_infos(Employee employee) throws ClassNotFoundException, InstantiationException, IllegalAccessException, InvocationTargetException {
-        Scanner scanner = new Scanner(System.i n);
+        Scanner scanner = new Scanner(System.in);
+
+
+
+
         System.out.print("Nom: ");
         employee.setName( scanner.nextLine());
 
